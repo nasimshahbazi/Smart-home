@@ -1,0 +1,7 @@
+mysql -h telin002 -u nshahbazi -pnasim nasim; //wie can ich in MariaDb reinkommen. -h host -u username -ppasswort name;
+quite; // wie kann ich auf MariaDb raus kommen.oder (Contr + d)
+create table email(PersonalId ist null default0, mail varchar(30));
+create table film(filmId int, name varchar(30), jahr int, kosten int, regisseurId int, genre varchar(30));
+update email set PersonalId = 4 where PersonalId =2; //change ehe information
+alter table email add name varchar(30); // neue Spalte hinzufugen.
+
