@@ -4,23 +4,14 @@ Introduction
  Using Git
  Installing Git
  Configuring Git
- Getting Help
- Cheat Sheet
- Taking Snapshots 
- Initializing a Repository 
- Git Workflow
- Staging Files
- Committing Changes
- Committing Best Practices
- Skipping the Staging Area
- Removing Files
- Renaming or Moving Files
- Ignoring Files
- Short Status
- Viewing the Staged and Unstaged Changes 
- Visual Diff Tools
- Viewing the History
- Viewing a Commit
- Unstaging Files
- Discarding Local Changes
- Restoring a File to an Earlier Version 
+  Common GitHub Commands ⌨
+To create a new repository locally: git init
+To add files to staging area: git add .  OR   git add ~filename~
+To check status of staging area: git status
+To commit new changes: git commit -m "commit message"
+To create a new branch: git checkout -b ~branch name~
+To switch between branches: git checkout ~branch name~
+To merge branches together: git merge ~branch name~
+To add a remote repository: git remote add ~remote name~ ~https://yourremoteurl~
+To pull changes from a remote repository: git pull ~remote name~ ~branch name~
+To push changes to a remote repository: git push ~remote name~ ~branch name~
